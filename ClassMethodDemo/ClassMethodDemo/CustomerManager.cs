@@ -18,7 +18,7 @@ namespace ClassMethodDemo
 
         public void Update(Customer customer)
         {
-            Console.WriteLine(customer.TcNo + " " + customer.CustomerName + " " + customer.CustomerSurname + " " + " has been updating.");
+            Console.WriteLine(customer.TcNo + " " + customer.CustomerName + " " + customer.CustomerSurname + " " + " has been updated.");
         }
 
         public void List(Customer[] customers)
